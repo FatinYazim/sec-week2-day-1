@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.parent {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+display: flex;
+/* default value  */
+/* display:none *hidden  */
+/* flex : row / column */
+/* flex -reversed  */
+
+/* justify content -main axis based on flex direction row /column */
+/* pergerakan children based on main axis :start, end , centre  */ 
+/* justify content: space-between -push child  */
+/* perpendicular to main axis -cross axis - based on align item  */
+/*  penting penting flex-wrap: wrap*/
+
+flex-direction: row;
+justify-content: space-between;
+align-items: start;
+gap: 20px;
+/*  */
+}
+
+.children {
+    width: 50px;
+    height: 50px ;
+    border-style: solid;
+    
+}
+
+.children-1 {
+    background-color: blue;
+}
+
+.children-2 {
+    background-color: green;
+}
+
+.children-3 {
+    background-color: yellow;
+}
